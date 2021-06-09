@@ -1,0 +1,25 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+input {
+  padding: 0.3rem;
+  font-size: 1.2rem;
+  font: inherit;
+}
+
+button {
+  background-color: rgb(6, 6, 190);
+  font-size: 1.1rem;
+  padding: 0.4rem 0.2rem;
+  margin-left: 4rem;
+  color: #fff;
+}

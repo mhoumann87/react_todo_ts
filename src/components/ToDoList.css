@@ -1,0 +1,13 @@
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+li {
+  font-size: 1.6rem;
+}
+
+li button {
+  background: rgb(209, 4, 4);
+}

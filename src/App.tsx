@@ -22,8 +22,16 @@ const App: React.FC = () => {
 
   return (
     <div className='App'>
-      <NewToDo onAddTodo={addToDoHandler} />
-      <ToDoList items={todos} onDeleteTodo={deleteTodoHandler} />
+      <header>
+        <h1>ToDo List</h1>
+      </header>
+
+      <main>
+        <NewToDo onAddTodo={addToDoHandler} />
+        <ToDoList items={todos} onDeleteTodo={deleteTodoHandler} />
+      </main>
+
+      <footer>&copy;2021 Michael Houmann</footer>
     </div>
   );
 };
