@@ -1,3 +1,10 @@
+# ToDo React/Typescript app
+---
+
+Just the basic todo app in React, just for learning to use Typescript with React.
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
